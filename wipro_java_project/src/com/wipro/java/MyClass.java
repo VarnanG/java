@@ -15,8 +15,8 @@ class MyClass {
  
 
     public static void main(String[] args) {
-        MyClass obj = new MyClass();
-        obj.changeValue(10);
-        System.out.println(obj.num);
+        MyClass obj = new MyClass(); // Creating object of MyClass
+        obj.changeValue(10); // Assigning value to num
+        System.out.println(obj.num); // printing num 
 }
 }
