@@ -69,9 +69,15 @@ public class Animal {
 	public Animal() {
 		// TODO Auto-generated constructor stub
 	}
+	
+	@Override
+	public String toString() {
+		return "Animal [species=" + species + ", name=" + name + ", age=" + age + "]";
+	}
 
 	/**
 	 * @param args
+	 * 
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
