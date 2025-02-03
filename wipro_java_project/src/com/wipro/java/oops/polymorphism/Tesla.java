@@ -1,6 +1,6 @@
 package com.wipro.java.oops.polymorphism;
 
-//Child class inheriting Car(Parent) class
+//Child class inheriting Car(Parent) classx
 public class Tesla extends Car {
 
 	public void carDetails() {
