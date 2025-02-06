@@ -14,7 +14,7 @@ public class Movie implements Comparable<Movie>{
 	
 	public int compareTo(Movie m) {
 		// sort movies in ascending 
-		// order of rating
+		// order of year
 		return this.y - m.y;
 	}
 	
